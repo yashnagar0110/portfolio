@@ -1,0 +1,57 @@
+/* Background grid pattern */
+.hero-bg {
+  background: linear-gradient(to bottom right, #f8fafc, #ffffff);
+  background-image:
+    repeating-linear-gradient(0deg, rgba(255,0,150,0.2) 0px, rgba(255,0,150,0.2) 5px, transparent 1px, transparent 60px),
+    repeating-linear-gradient(90deg, rgba(255,0,150,0.2) 0px, rgba(255,0,150,0.2) 5px, transparent 1px, transparent 60px);
+  background-size: 60px 60px;
+  animation: gridColors 12s linear infinite;
+}
+
+@keyframes gridColors {
+  0% {
+    background-image:
+      repeating-linear-gradient(0deg, rgba(255,0,150,0.2) 0px, rgba(255,0,150,0.2) 5px, transparent 1px, transparent 60px),
+      repeating-linear-gradient(90deg, rgba(255,0,150,0.2) 0px, rgba(255,0,150,0.2) 5px, transparent 1px, transparent 60px);
+  }
+  25% {
+    background-image:
+      repeating-linear-gradient(0deg, rgba(0,200,255,0.2) 0px, rgba(0,200,255,0.2) 5px, transparent 1px, transparent 60px),
+      repeating-linear-gradient(90deg, rgba(0,200,255,0.2) 0px, rgba(0,200,255,0.2) 5px, transparent 1px, transparent 60px);
+  }
+  50% {
+    background-image:
+      repeating-linear-gradient(0deg, rgba(0,255,150,0.2) 0px, rgba(0,255,150,0.2) 5px, transparent 1px, transparent 60px),
+      repeating-linear-gradient(90deg, rgba(0,255,150,0.2) 0px, rgba(0,255,150,0.2) 5px, transparent 1px, transparent 60px);
+  }
+  75% {
+    background-image:
+      repeating-linear-gradient(0deg, rgba(255,200,0,0.2) 0px, rgba(255,200,0,0.2) 5px, transparent 1px, transparent 60px),
+      repeating-linear-gradient(90deg, rgba(255,200,0,0.2) 0px, rgba(255,200,0,0.2) 5px, transparent 1px, transparent 60px);
+  }
+  100% {
+    background-image:
+      repeating-linear-gradient(0deg, rgba(255,0,150,0.2) 0px, rgba(255,0,150,0.2) 5px, transparent 1px, transparent 60px),
+      repeating-linear-gradient(90deg, rgba(255,0,150,0.2) 0px, rgba(255,0,150,0.2) 5px, transparent 1px, transparent 60px);
+  }
+}
+
+body { 
+    font-family: monospace;
+}
+.nav-link:hover {
+  transform: scale(1.2);
+  transition: transform 0.3s ease;
+  opacity: 1;
+    
+}
+.social-icon:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s ease;
+    opacity: 1;
+}
+.card-shadow :hover{
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+ 
