@@ -28,7 +28,7 @@ export default function Hero() {
         </p>
         {/* Resume*/}
         <a
-          href="https://drive.google.com/file/d/1ts5hYxdQx7k27v0thIoNctBwdpkewDjq/view?usp=sharing"
+          href="https://drive.google.com/file/d/1SRjqLM0KNkzcwu296ZRfG9RMLNM_ku4-/view?usp=drive_link"
           className="btn btn-primary btn-lg mb-4"
           download>Get Resume</a>
 
